@@ -1,0 +1,69 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+
+.btn .fa {
+  margin-left: 3px;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+ 
+}
+
+
+h6 {    
+  line-height: 1.7;
+}
+
+.menu{
+    margin-left: 8em;
+}
+.HOME{
+    padding-top: 100px!important;
+    color:#eaeaea;
+}
+.bbtn1{
+    padding:8px 40px 8px 40px;
+    font-size: 30px;
+    color:#eaeaea;
+    background: #0797E9;
+    box-shadow: 0px 0px 20px rgba(7, 151, 233, 0.6);
+}
+
+.bbtn2{
+    padding:8px 40px 8px 40px;
+    font-size: 30px;
+    background: #eaeaea;
+    color:#0797E9!important;
+}
+
+.bbtn1:hover{
+    color:#eaeaea
+}
+.bbtn1:hover, .bbtn2:hover{
+    text-decoration: none;
+}
