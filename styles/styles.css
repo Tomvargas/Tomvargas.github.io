@@ -100,7 +100,7 @@ hr.hr-light {
   .HOME h1 {
     text-align: left;
     font-size: 35px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .htxt {
   width: 400px;
@@ -158,11 +158,11 @@ hr.hr-light {
 }
 
 .bbtn1{
-  font-size: 20px!important;
+  font-size: 20px;
 }
 
 .bbtn2{
-  font-size: 20px!important;
+  font-size: 20px;
   margin-left: 90px!important;
 }
 
