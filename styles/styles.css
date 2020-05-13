@@ -29,6 +29,7 @@ header,
 .navbar:not(.top-nav-collapse) {
   background: transparent !important;
 }
+/*---------------------------------------------------------------------------start of responsive css for medium devices*/
 
 @media (max-width: 991px) {
  html,
@@ -37,14 +38,57 @@ header,
   .view {
     height: 100%;
   }
+.HOME{
+    padding-top: 75px!important;
+    color:#eaeaea;
 }
+.menu{
+  margin-left:25%!important;
+  font-size: 1em;
+}
+.collapse:not(.show) {
+  display: block!important;
+}
+
+.navbar-nav {
+  display: -ms-flexbox!important;
+  display: flex!important;
+  -ms-flex-direction: row!important;
+  flex-direction: row!important;
+}
+.navbar-nav li {
+  margin-left: 10px;
+}
+
+.navbar-toggler{
+  display:none;
+}
+
+.bbtn1{
+  font-size: 20px!important;
+}
+
+.bbtn2{
+  font-size: 20px!important;
+  margin-left: 90px!important;
+}
+
+}
+/*---------------------------------------------------------------------------end of responsive css for medium devices*/
 
 h6 {    
   line-height: 1.7;
 }
 
+.navbar-brand{
+  position:absolute;
+  left:20px;
+  margin-top: 10px;
+}
 .menu{
-    margin-left: 8em;
+    margin-top: 20px;
+    margin-left:35%;
+    font-size: 1.2em;
 }
 .HOME{
     padding-top: 100px!important;
@@ -52,6 +96,7 @@ h6 {
 }
 .bbtn1{
     padding:8px 40px 8px 40px;
+    position: absolute;
     font-size: 30px;
     color:#eaeaea;
     background: #0797E9;
@@ -60,6 +105,8 @@ h6 {
 
 .bbtn2{
     padding:8px 40px 8px 40px;
+    position:absolute;
+    margin-left: 100px;
     font-size: 30px;
     background: #eaeaea;
     color:#0797E9!important;
