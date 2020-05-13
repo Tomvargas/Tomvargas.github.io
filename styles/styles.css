@@ -90,7 +90,7 @@ hr.hr-light {
 
 
 /*-----------------------------------------------------------------------start of responsive css for min medium devices*/
-@media (min-width: 509px) and (max-width: 800px) {
+@media (min-width: 509px) and (max-width: 900px) {
   html,
   body,
   header,
