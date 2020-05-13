@@ -35,6 +35,9 @@ h6 {
     padding-top: 100px!important;
     color:#eaeaea;
 }
+hr.hr-light {
+  display: none;
+}
 .bbtn1{
     padding:8px 40px 8px 40px;
     position: absolute;
@@ -87,13 +90,34 @@ h6 {
 
 
 /*-----------------------------------------------------------------------start of responsive css for min medium devices*/
-@media (min-width: 800px) and (max-width: 850px) {
+@media (min-width: 509px) and (max-width: 767px) {
   html,
   body,
   header,
   .view {
     height: 100%;
   }
+  .HOME h1 {
+    text-align: left;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.htxt {
+  width: 400px;
+  text-align: left;
+}
+.htxt h6{
+  font-size: 15px;
+}
+.resbtn {
+  position: absolute;
+}
+.bbtn2 {
+  font-size: 10px!important;
+}
+hr.hr-light {
+  display: none;
+}
 }
 /*-------------------------------------------------------------------------end of responsive css for min medium devices*/
 
