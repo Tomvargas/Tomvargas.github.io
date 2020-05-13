@@ -1,10 +1,80 @@
+/*----------------------------------------------------- */
+
 html,
 body,
 header,
 .view {
   height: 100%;
 }
+.btn .fa {
+  margin-left: 3px;
+}
+h6 {    
+  line-height: 1.7;
+}
 
+/*----------------------------------------------------- NAVBAR*/
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+.navbar-brand{
+  position:absolute;
+  left:20px;
+  margin-top: 10px;
+}
+.menu{
+    margin-top: 20px;
+    margin-left:35%;
+    font-size: 1.2em;
+}
+
+/*----------------------------------------------------- INDEX CONTENT*/
+
+.HOME{
+    padding-top: 100px!important;
+    color:#eaeaea;
+}
+.bbtn1{
+    padding:8px 40px 8px 40px;
+    position: absolute;
+    font-size: 30px;
+    color:#eaeaea;
+    background: #0797E9;
+    box-shadow: 0px 0px 20px rgba(7, 151, 233, 0.6);
+}
+
+.bbtn2{
+    padding:8px 40px 8px 40px;
+    position:absolute;
+    margin-left: 100px;
+    font-size: 30px;
+    background: #eaeaea;
+    color:#0797E9!important;
+}
+
+.bbtn1:hover{
+    color:#eaeaea
+}
+.bbtn1:hover, .bbtn2:hover{
+    text-decoration: none;
+}
+
+/*----------------------------------------------------- SEARCH BAR*/
+
+.search-bar{
+  position:absolute;
+  right: 0px;
+  background: rgba(65, 74, 103, 0.45);
+  backdrop-filter: blur(5px);
+  width: 75px;
+  height: 100%;
+}
+
+/*-------------------------------------------- RESPONSIVE DESIGN ---------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------start of responsive css for min devices*/
 @media (max-width: 740px) {
   html,
   body,
@@ -13,6 +83,10 @@ header,
     height: 100%;
   }
 }
+/*---------------------------------------------------------------------------end of responsive css for min devices*/
+
+
+/*-----------------------------------------------------------------------start of responsive css for min medium devices*/
 @media (min-width: 800px) and (max-width: 850px) {
   html,
   body,
@@ -21,14 +95,9 @@ header,
     height: 100%;
   }
 }
+/*-------------------------------------------------------------------------end of responsive css for min medium devices*/
 
-.btn .fa {
-  margin-left: 3px;
-}
 
-.navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-}
 /*---------------------------------------------------------------------------start of responsive css for medium devices*/
 
 @media (max-width: 991px) {
@@ -75,55 +144,3 @@ header,
 
 }
 /*---------------------------------------------------------------------------end of responsive css for medium devices*/
-
-h6 {    
-  line-height: 1.7;
-}
-
-.navbar-brand{
-  position:absolute;
-  left:20px;
-  margin-top: 10px;
-}
-.menu{
-    margin-top: 20px;
-    margin-left:35%;
-    font-size: 1.2em;
-}
-.HOME{
-    padding-top: 100px!important;
-    color:#eaeaea;
-}
-.bbtn1{
-    padding:8px 40px 8px 40px;
-    position: absolute;
-    font-size: 30px;
-    color:#eaeaea;
-    background: #0797E9;
-    box-shadow: 0px 0px 20px rgba(7, 151, 233, 0.6);
-}
-
-.bbtn2{
-    padding:8px 40px 8px 40px;
-    position:absolute;
-    margin-left: 100px;
-    font-size: 30px;
-    background: #eaeaea;
-    color:#0797E9!important;
-}
-
-.bbtn1:hover{
-    color:#eaeaea
-}
-.bbtn1:hover, .bbtn2:hover{
-    text-decoration: none;
-}
-
-.search-bar{
-  position:absolute;
-  right: 0px;
-  background: rgba(65, 74, 103, 0.45);
-  backdrop-filter: blur(5px);
-  width: 75px;
-  height: 100%;
-}
