@@ -90,16 +90,19 @@ hr.hr-light {
 
 
 /*-----------------------------------------------------------------------start of responsive css for min medium devices*/
-@media (min-width: 509px) and (max-width: 767px) {
+@media (min-width: 509px) and (max-width: 771px) {
   html,
   body,
   header,
   .view {
     height: 100%;
   }
+  .HOME{
+    padding-top:50px!important;
+  }
   .HOME h1 {
     text-align: left;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 10px;
 }
 .htxt {
