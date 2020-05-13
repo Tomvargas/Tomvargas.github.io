@@ -76,7 +76,7 @@ h6 {
   position:absolute;
   right: 0px;
   background: rgba(65, 74, 103, 0.45);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(5px);
   width: 75px;
   height: 100%;
 }
