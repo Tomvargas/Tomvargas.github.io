@@ -35,8 +35,14 @@ h6 {
     padding-top: 100px!important;
     color:#eaeaea;
 }
+.HOME h1{
+  font-size:50px;
+}
 hr.hr-light {
   display: none;
+}
+.htxt{
+    width: 400px;
 }
 .bbtn1{
     padding:8px 40px 8px 40px;
@@ -63,6 +69,14 @@ hr.hr-light {
     text-decoration: none;
 }
 
+.gitname{
+  position: absolute;
+  bottom: 20px;
+  left:40px;
+}
+.gitname a:hover{
+  text-decoration: none;
+}
 /*----------------------------------------------------- SEARCH BAR*/
 
 .search-bar{
@@ -90,7 +104,7 @@ hr.hr-light {
 
 
 /*-----------------------------------------------------------------------start of responsive css for min medium devices*/
-@media (min-width: 509px) and (max-width: 900px) {
+@media (min-width: 509px) and (max-width: 9 00px) {
   html,
   body,
   header,
