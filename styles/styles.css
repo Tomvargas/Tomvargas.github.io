@@ -72,7 +72,7 @@ hr.hr-light {
 .gitname{
   position: absolute;
   bottom: 20px;
-  left:40px;
+  left:60px;
 }
 .gitname a:hover{
   text-decoration: none;
@@ -86,6 +86,29 @@ hr.hr-light {
   backdrop-filter: blur(5px);
   width: 75px;
   height: 100%;
+}
+
+#PIND{
+  position:relative;
+  margin-top: 20em;
+  }
+
+.item a{
+  width: 28px;
+  height: 28px;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-left: 25px;
+  background-color:#eaeaea;
+}
+
+.activel a{
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+  background-color:#0797E9;
 }
 
 /*-------------------------------------------- RESPONSIVE DESIGN ---------------------------------------------------*/
