@@ -90,8 +90,8 @@ hr.hr-light {
 
 #PIND{
   position:relative;
-  margin-top: 20em;
-  }
+  margin-top: 10em;
+}
 
 .item a{
   width: 28px;
@@ -110,6 +110,14 @@ hr.hr-light {
   margin-left: 20px;
   background-color:#0797E9;
 }
+
+.sbtn{
+  margin-left: 20px;
+}
+.sbtn i{
+  margin-top: 20px;
+}
+
 
 /*-------------------------------------------- RESPONSIVE DESIGN ---------------------------------------------------*/
 
