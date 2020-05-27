@@ -78,6 +78,22 @@ hr.hr-light {
 .gitname a:hover{
   text-decoration: none;
 }
+.social{
+  display: -ms-flexbox!important;
+  display: flex!important;
+  -ms-flex-direction: row!important;
+  flex-direction: row!important;
+  position: absolute;
+  bottom: 29px;
+  right: 80px;
+}
+.social li{
+  margin-right: 20px;
+  
+}
+.social li a{
+  color:#eaeaea!important;
+}
 /*----------------------------------------------------- SEARCH BAR*/
 
 .search-bar{
