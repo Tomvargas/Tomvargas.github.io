@@ -20,17 +20,17 @@ h6 {
 
 #loader {
   position: absolute;
-  left: 55%;
+  left: 50%;
   top: 50%;
-  z-index: 1;
+  z-index: 0;
   width: 150px;
   height: 150px;
   margin: -75px 0 0 -75px;
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #0797E9;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   -webkit-animation: spin 5s linear infinite;
   animation: spin 5s linear infinite;
 }
@@ -64,7 +64,7 @@ h6 {
 }
 .menu{
     margin-top: 20px;
-    margin-left:50%;
+    left:50%;
     font-size: 1.2em;
 }
 
@@ -85,7 +85,8 @@ hr.hr-light {
 }
 .bbtn1{
     padding:8px 40px 8px 40px;
-    position: absolute;
+    position: relative;
+    display:inline-block;
     font-size: 30px;
     color:#eaeaea;
     background: #0797E9;
@@ -94,8 +95,9 @@ hr.hr-light {
 
 .bbtn2{
     padding:8px 40px 8px 40px;
-    position:absolute;
-    margin-left: 100px;
+    position:relative;
+    left:-10px;
+    display:inline-block;
     font-size: 30px;
     background: #eaeaea;
     color:#0797E9!important;
@@ -110,7 +112,7 @@ hr.hr-light {
 
 .gitname{
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   left:60px;
 }
 .gitname a:hover{
@@ -124,7 +126,7 @@ hr.hr-light {
   position: absolute;
   transform: rotate(90deg);
   top:350px;
-  left: -120px;
+  left: -135px;
 }
 .social li{
   margin-right: 20px;
@@ -150,8 +152,8 @@ hr.hr-light {
 }
 
 .item a{
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   border-radius: 15px;
   margin-top: 15px;
   margin-left: 18px;
@@ -159,8 +161,8 @@ hr.hr-light {
 }
 
 .activel a{
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 20px;
   margin-top: 15px;
   margin-left: 15px;
@@ -182,7 +184,7 @@ hr.hr-light {
   width: 400px;
   height: 200px;  
   left: 650px;
-  top:250px;
+  top:200px;
   background: rgba(65, 74, 103, 0.45);
   backdrop-filter: blur(7px);
   font-size: 17px;
@@ -208,7 +210,7 @@ hr.hr-light {
 /*-------------------------------------------- RESPONSIVE DESIGN ---------------------------------------------------*/
 
 
-/*---------------------------------------------------------------------------start of responsive css for min devices*/
+/*---------------------------------------------------------------------------start of responsive css for min devices
 @media (max-width: 740px) {
   html,
   body,
@@ -220,7 +222,7 @@ hr.hr-light {
 /*---------------------------------------------------------------------------end of responsive css for min devices*/
 
 
-/*-----------------------------------------------------------------------start of responsive css for min medium devices*/
+/*-----------------------------------------------------------------------start of responsive css for min medium devices
 @media (min-width: 509px) and (max-width: 9 00px) {
   html,
   body,
@@ -253,10 +255,11 @@ hr.hr-light {
   display: none;
 }
 }
+*/
 /*-------------------------------------------------------------------------end of responsive css for min medium devices*/
 
 
-/*---------------------------------------------------------------------------start of responsive css for medium devices*/
+/*---------------------------------------------------------------------------start of responsive css for medium devices
 
 @media (max-width: 991px) {
  html,
@@ -301,4 +304,5 @@ hr.hr-light {
 }
 
 }
+*/
 /*---------------------------------------------------------------------------end of responsive css for medium devices*/
