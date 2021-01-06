@@ -221,6 +221,10 @@ hr.hr-light {
   .navbar-toggler{
     margin-top: 20px;
     margin-left: 85%;
+    
+  }
+  .navbar-toggler:focus{
+    outline: none;
   }
 
   .navbar-brand{
@@ -253,9 +257,9 @@ hr.hr-light {
   }
   .news{
     left: 20px;
-    width: 370px;
+    width: 90%;
     height: 150px;
-    top:430px;
+    top:105%;
     text-align: justify;
   }
   .social{
@@ -292,6 +296,19 @@ hr.hr-light {
   #loader {
     left: 65%;
     top: 60%;    
+  }
+  .nbtn{    
+    display: none;
+  }
+  .navbar-collapse{ 
+    position:absolute;
+    z-index: 999;
+    padding: 30px;
+    top:47px;
+    margin-left: 18px;
+    border-radius: 5px;
+    background-color: rgba(15, 48, 120, 0.75);
+    backdrop-filter: blur(5px);
   }
 }
 /*-------------------------------------------- RESPONSIVE DESIGN ---------------------------------------------------*/
