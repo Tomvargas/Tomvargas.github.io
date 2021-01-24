@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomvargas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link id="style" rel="stylesheet" href="./css/dark.css">
+    
+</head>
+<body onload="show_loader()">
+    <script src="https://kit.fontawesome.com/7316530f41.js" crossorigin="anonymous"></script>
+
+    <div id="loader">
+        <div id='logo_loader'>
+            <p>T</p>
+        </div>
+    </div>
+
+    <header>
+
+        <ul class="opacity header1">
+            <li>
+                <div class='logo'>
+                    <p>T</p>
+                </div>
+            </li>
+            <li>
+                <em onclick="change_theme()" class="fas fa-moon"></em>
+            </li>
+            <li>
+                <div onclick="show_lang()" id="lang">
+                    <p>En ▼</p>
+                    <ul style="display: none;" id="Lang" class="header1 langop">
+                        <li>English</li>
+                        <li>Español</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="opacity nav header1">
+            <li>About me</li>
+            <li>Works</li>
+            <li>Contact</li>
+            <li>
+                <div class="btn_cv">button</div>
+            </li>
+        </ul>
+    </header>
+  
+    <div style="display: flex;justify-content: center;align-items: center; margin-top: 200px;">
+       <p><em style="font-size: 100px; margin-right: 20px;" class="fas fa-drafting-compass"></em></p>
+        <p><br><h1>PAGE IN PROCESS OF DESIGN</h1></p>
+    </div>
+    
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

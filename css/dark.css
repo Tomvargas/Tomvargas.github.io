@@ -1,0 +1,139 @@
+:root {
+    --bg: #191C22;
+    --blue: #93DDFB;
+    --grey: #7B88A1;
+    --card: #21252E;
+    --txt: #ffffff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&display=swap');
+
+body {
+    background-color: var(--bg);
+    color: var(--blue);
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px 37px 0px 37px;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+    color: var(--txt);
+}
+
+#loader{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    margin-left: -10px;
+    margin-top: -10px;
+    background-color: var(--bg);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-moon{
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.header1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header1 li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.langop{
+    position: absolute;    
+}
+.langop li{
+    position: relative;
+    margin-left: 10;
+    color: var(--grey);
+    margin-top: -8 px;
+}
+
+#logo_loader{
+    width: 3em;
+    height: 3em;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#logo_loader p{
+    margin: 0px;
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--blue);
+    cursor: default;
+    animation-name: loadertxt;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.logo{
+    width: 3em;
+    height: 3em;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo p{
+    margin: 0px;
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--blue);
+    cursor: pointer ;
+}
+
+#lang{
+    font-size: .8em;
+    cursor: pointer;
+}
+
+.nav{
+    float: right;
+    margin-top: -2.3rem;
+    color: var(--txt);
+}
+
+.btn_cv{
+    color: var(--blue);
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: var(--blue);
+    padding: 3px 6px 3px 6px;
+    margin-top: -4px;
+}
+.nav_active{
+    color: var(--blue)
+}
+/*----------------------------------------------------------------------------- ANIMATIONS*/
+@keyframes loader {
+    0%   {border-color: var(--blue);}
+    75%  {border-color: var(--bg);}
+    100%   {border-color: var(--blue);}    
+  }
+  @keyframes loadertxt {
+    0%   {color: var(--blue);}
+    72%  {color: var(--bg);}
+    100%   {color: var(--blue);}    
+  }
