@@ -12,6 +12,10 @@ body {
     color: var(--blue);
     font-family: 'Montserrat', sans-serif;
     margin: 30px 37px 0px 37px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 p{
     font-family: 'Roboto Mono', monospace;
