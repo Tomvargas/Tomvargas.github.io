@@ -13,10 +13,10 @@ function change_theme(){
 }
 
 function show_loader(){
-    //document.getElementById('loader').style.display='flex';
-    //setTimeout(()=>{
-      //  document.getElementById('loader').style.display='none';
-    //}, 4000)
+    document.getElementById('loader').style.display='flex';
+    setTimeout(()=>{
+        document.getElementById('loader').style.display='none';
+    }, 4000)
 }
 
 function show_lang(){
