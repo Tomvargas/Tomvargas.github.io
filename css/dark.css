@@ -24,15 +24,15 @@ p{
 
 #loader{
     position: absolute;
-    width: 95%;
-    height: 95%;
+    width: 98%;
+    height: 96.9%;
     margin-left: -10px;
     margin-top: -10px;
     background-color: var(--bg);
     display: none;
     justify-content: center;
     align-items: center;
-    z-index: 999;
+    z-index: 9999;
 }
 
 .fa-moon{
@@ -137,7 +137,7 @@ p{
 }
 
 .fa-github{
-    position: absolute;
+    position: fixed;
     bottom: 31px;
     font-size: 2.5rem;
     color: var(--grey);
@@ -145,6 +145,30 @@ p{
     animation-name: animategithub;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
+}
+
+.email{
+    position: fixed;
+    width: 400px;
+    right: -170px;
+    bottom: 160px;
+    transform: rotate(90deg);
+}
+.email a{
+    text-decoration: none;
+    color: var(--blue);
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+}
+.email hr{
+    border: 1px solid;
+    border-color: var(--blue);
+    opacity: 1;
+    width: 150px;
+    display: inline-block;
+    margin: 0px;
+    margin-bottom: 3px;
+
 }
 
 
@@ -191,3 +215,4 @@ p{
     50% {transform: rotate(-10deg);}
     100% {transform: rotate(0deg);}
   }
+  
