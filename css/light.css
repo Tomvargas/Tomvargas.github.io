@@ -152,7 +152,7 @@ p{
 .email{
     position: fixed;
     width: 400px;
-    right: -130px;
+    right: -170px;
     bottom: 160px;
     transform: rotate(90deg);
 }
