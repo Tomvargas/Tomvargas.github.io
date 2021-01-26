@@ -32,6 +32,7 @@ p{
     display: none;
     justify-content: center;
     align-items: center;
+    z-index: 999;
 }
 
 .fa-moon{
@@ -145,6 +146,32 @@ p{
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
+
+
+/*----------------------------------------------------------------------------- RESPONSIVE*/
+@media screen and (max-width: 670px){
+
+    .nav{
+        display:none;
+    }
+    .nav-responsive{
+        display: flex;
+        float: right;
+        position: absolute;
+        right: 37px;
+        top:40px
+    }
+    .bars div{
+        width: 40px;
+        height: 5px;
+        background-color: var(--blue);
+        margin-top: 6px;
+        border-radius: 10px;
+    }
+
+}
+
+
 
 
 
