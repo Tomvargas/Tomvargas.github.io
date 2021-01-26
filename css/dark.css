@@ -124,12 +124,30 @@ p{
     border-width: 2px;
     border-radius: 20px;
     border-color: var(--blue);
-    padding: 3px 6px 3px 6px;
+    padding: 3px 25px 3px 25px;
     margin-top: -4px;
 }
 .nav_active{
     color: var(--blue)
 }
+
+.nav li{
+    margin-right: 35px;
+}
+
+.fa-github{
+    position: absolute;
+    bottom: 31px;
+    font-size: 2.5rem;
+    color: var(--grey);
+
+    animation-name: animategithub;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+
 /*----------------------------------------------------------------------------- ANIMATIONS*/
 @keyframes loader {
     0%   {border-color: var(--blue);}
@@ -140,4 +158,9 @@ p{
     0%   {color: var(--blue);}
     72%  {color: var(--bg);}
     100%   {color: var(--blue);}    
+  }
+  @keyframes animategithub {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(-10deg);}
+    100% {transform: rotate(0deg);}
   }
