@@ -13,9 +13,12 @@ function change_theme(){
 }
 
 function show_loader(){
+    var content = document.getElementById('content');
+    content.style.display='none';
     document.getElementById('loader').style.display='flex';
     setTimeout(()=>{
         document.getElementById('loader').style.display='none';
+        content.style.display='block';
     }, 4000)
 }
 
