@@ -172,7 +172,34 @@ p{
     margin-bottom: 3px;
 }
 
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--bg); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--grey);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--blue); 
+  }
 
+  header{
+    position: fixed;
+    width: 97%;
+    top: 0px;
+    padding-top: 30px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
 
 /*----------------------------------------------------------------------------- RESPONSIVE*/
 @media screen and (max-width: 670px){
