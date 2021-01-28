@@ -129,6 +129,10 @@ p{
     border-color: var(--blue);
     padding: 3px 25px 3px 25px;
     margin-top: -4px;
+    text-decoration: none;
+}
+.btn_cv:hover{
+    color: var(--blue)
 }
 .nav_active{
     color: var(--blue)
